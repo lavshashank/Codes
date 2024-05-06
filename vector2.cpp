@@ -27,4 +27,15 @@ for(int ele:v){
     cout<<ele<<" ";
 }
 cout<<endl;
+
+v.erase(v.end()-2);
+
+int idx=0;
+while (idx<v.size()){
+    cout<<v[idx++]<<" ";
+}
+
+
+
+cout<<endl;
 }
