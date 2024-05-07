@@ -33,9 +33,6 @@ v.erase(v.end()-2);
 int idx=0;
 while (idx<v.size()){
     cout<<v[idx++]<<" ";
-}
-
-
-
+} 
 cout<<endl;
 }
