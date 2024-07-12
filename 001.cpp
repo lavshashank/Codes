@@ -3,14 +3,14 @@ using namespace std;
 
 int sqt(int a){
     int i=1;
-    while(i*i<=a){
+    while(i<=a){
+        cout << i*i << endl;
         i++;
     }
-    return i-1;
+return a;
 }
 
 int main(){
-    int a(5);
-    cout<<sqt(a)<<endl;
+    int ans= sqt(5);
     return 0;
 }
