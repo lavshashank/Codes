@@ -1,0 +1,17 @@
+Array is a data structure which stores a collection of homogeneous items has contigeous memory
+index - location of every Array (starts with 0 called zero indexing)
+
+datatype arrayname[arraysize]
+
+ex- int arr[10] 
+
+Two types of array: single dimensional or one-dimensional array
+and multi-dimensional array
+
+* one dimentional array
+operators: sizeOf(arr)
+----------------------------------*--------*---------------
+
+Traversing of array : Looping
+
+for loop, while loop
