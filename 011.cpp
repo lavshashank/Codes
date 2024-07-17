@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    vector<int> v;
+    vector<int> v(6);
     int n;
     int count = 0;
 
     for (int i = 0; i < 6; i++)
-    {
+    {  
         cin >> v[i];
     }
 
