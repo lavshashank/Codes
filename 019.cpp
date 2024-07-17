@@ -18,19 +18,23 @@ int main(){
     cout<<"Enter the number of rotation : ";
     cin>>rotatation;
 
+    rotatation = rotatation%array.size();
+
     int arrayNew[array.size()];
-    int i,j;
+    int j=0;
 
-    for (i = 0; i < array.size()-rotatation; i++)
+// inserting last k elemnts in ans array
+    for (int i = array.size()-rotatation; i < array.size(); i++)
     {
-        arrayNew[i] = array[array.size()-rotatation + i];
+        arrayNew[j++] = array[i];
     }
 
-    for (j = array.size()-rotatation; j < array.size(); j++)
+// inserting first n-k elemnts in ans array
+    for (int i = 0; i < array.size()-rotatation; i++)
     {
-        arrayNew[j] = array[i];
-        i++;
+        arrayNew[j++]=array[i];
     }
+    
     
     for (int k = 0; k < array.size(); k++)
     {
@@ -39,8 +43,5 @@ int main(){
     cout<<endl;
     
     return 0;
-    
-    
-
-    
+   
 }
