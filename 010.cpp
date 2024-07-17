@@ -14,10 +14,11 @@ int main(){
     cout<<"Enter the number for the last occurance of that number: ";
     cin>>n;
     int pos = 0;
-    for (int i = 0; i < v.size(); i++)
+    for (int i = v.size(); i > 0; i--)
     {
         if(v[i]==n && pos < i){
                 pos = i;
+                break;
         }        
     }
     cout<< "element is:"<< n<<"Position is: "<<pos<<endl;
