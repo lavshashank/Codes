@@ -1,0 +1,7 @@
+A[i][j];
+here i --> row  j--> column
+0 based indexing
+
+int array[2][3]
+
+int array[3][2][4] here --> 3 2D arrays of size 2*4 
