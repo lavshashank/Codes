@@ -5,3 +5,6 @@ here i --> row  j--> column
 int array[2][3]
 
 int array[3][2][4] here --> 3 2D arrays of size 2*4 
+
+mutidimentional arrays are used to represent grids, fater access, predefined size
+
