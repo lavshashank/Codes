@@ -31,23 +31,27 @@ int main(){
     }
 
     int C[r1][c2];
-    for (int i = 0; i < r2; i++)
+    for (int i = 0; i < r1; i++)
     {
-        for (int i = 0; i < c2; i++)
+        for (int j = 0; j < r2; j++)
         {
             int value =0;
             for (int k = 0; k < r2; k++)
             {
-                value+=A
+                value+=A[i][k]*B[k][j];
             }
+            C[i][j]=value;
             
         }
         
     }
-    
-    
-    
-    
-    
-     
+    for (int i = 0; i < r1; i++)
+    {
+        for (int j = 0; j < c2; j++)
+        {
+            cout<<C[i][j]<<" ";
+        }
+        cout<<endl;  
+    }
+    return 0;
 }

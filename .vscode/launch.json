@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/lavshashank/Desktop/Learning/Codes",
-      "program": "/Users/lavshashank/Desktop/Learning/Codes/build/Debug/outDebug"
+      "cwd": "/Users/lavshashank/Desktop/Learning/Codes/MutiDimen",
+      "program": "/Users/lavshashank/Desktop/Learning/Codes/MutiDimen/build/Debug/outDebug"
     }
   ]
 }
